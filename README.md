@@ -1,4 +1,4 @@
-# fish-eza
+# fish-lla
 
 ## ✅ Requirements
 
@@ -26,14 +26,6 @@ fisher install alper/fish-lla
 | `lt`             | `eza --group --header --group-directories-first --tree --level LEVEL`      |
 | `lc`             | `eza --group --header --group-directories-first --across`                  |
 | `lo`             | `eza --group --header --group-directories-first --oneline`                 |
-
-
-
-### Auto detect git repository
-
-Eza has `--git` options displaying git status of each file in a dedicated column (when using the long view).
-
-When inside a git repo, the `--git` option will be automatically added to every alias beginning with `ll` (as `--git` only works with `--long`) (`lla, llaa, llid` etc).
 
 ## 📝 License
 
