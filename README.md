@@ -9,7 +9,7 @@
 Install using Fisher:
 
 ```console
-fisher install plttn/fish-eza
+fisher install alper/fish-lla
 ```
 
 ## 🔧 Usage
