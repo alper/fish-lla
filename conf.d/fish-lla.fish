@@ -18,7 +18,7 @@ function __fish_lla_install --on-event fish-lla_install
     for a in $__FISH_LLA_BASE_ALIASES
         set -l opt_name (string join '_' "LLA" (string upper $a) "OPTIONS")
 
-        alias --save "$a" "eza \$LLA_STANDARD_OPTIONS \$$opt_name"
+        alias --save "$a" "lla \$LLA_STANDARD_OPTIONS \$$opt_name"
  
         set -a __FISH_LLA_ALIASES "$a"
     end
