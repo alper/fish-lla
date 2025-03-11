@@ -1,10 +1,10 @@
 function __fish_lla_install --on-event fish-lla_install
-    alias --save l "lla --icons"
-    alias --save ll "lla --icons --long"
-    alias --save lg "lla --icons --git"
+    alias --save l "lla --icons --sort-dirs-first"
+    alias --save ll "lla --icons --long --sort-dirs-first"
+    alias --save lg "lla --icons --git --sort-dirs-first"
     alias --save lt "lla --icons --tree"
-    alias --save lb "lla --icons --table"
-    alias --save lr "lla --icons --grid"
+    alias --save lb "lla --icons --table --sort-dirs-first"
+    alias --save lr "lla --icons --grid --sort-dirs-first"
     alias --save ls "lla --icons --sizemap --include-dirs"
     alias --save lh "lla --icons --timeline"
 end
