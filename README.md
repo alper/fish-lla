@@ -19,13 +19,13 @@ fisher install alper/fish-lla
 | alias            | default options                         |
 | ---------------- | --------------------------------------- |
 | `l`              | `lla --icons`                           |
-| `ll`             | `eza --icons --long`                    |
-| `lg`             | `eza --icons --git --long`              |
-| `lt`             | `eza --icons --tree`                    |
-| `lb`             | `eza --icons --table`                   |
-| `lr`             | `eza --icons --grid`                    |
-| `ls`             | `eza --icons --sizemap`                 |
-| `lh`             | `eza --icons --timeline`                |
+| `ll`             | `lla --icons --long`                    |
+| `lg`             | `lla --icons --git --long`              |
+| `lt`             | `lla --icons --tree`                    |
+| `lb`             | `lla --icons --table`                   |
+| `lr`             | `lla --icons --grid`                    |
+| `ls`             | `lla --icons --sizemap`                 |
+| `lh`             | `lla --icons --timeline`                |
 
 ## 📝 License
 
