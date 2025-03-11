@@ -8,7 +8,7 @@ function __fish_lla_install --on-event fish-lla_install
     # Options for the base aliases
     set -Ux LLA_L_OPTIONS
     set -Ux LLA_LL_OPTIONS --long
-    set -Ux LLA_LG_OPTIONS --git --long
+    set -Ux LLA_LG_OPTIONS --git
     set -Ux LLA_LT_OPTIONS --tree
     set -Ux LLA_LB_OPTIONS --table
     set -Ux LLA_LR_OPTIONS --grid
