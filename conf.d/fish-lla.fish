@@ -1,5 +1,5 @@
 function __fish_lla_install --on-event fish-lla_install
-    set -Ux __FISH_LLA_BASE_ALIASES l ll lg lt lb lg ls lh
+    set -Ux __FISH_LLA_BASE_ALIASES l ll lg lt lb lr ls lh
 
     set -Ux __FISH_LLA_ALIASES
 
@@ -11,7 +11,7 @@ function __fish_lla_install --on-event fish-lla_install
     set -Ux LLA_LG_OPTIONS --git --long
     set -Ux LLA_LT_OPTIONS --tree
     set -Ux LLA_LB_OPTIONS --table
-    set -Ux LLA_LG_OPTIONS --grid
+    set -Ux LLA_LR_OPTIONS --grid
     set -Ux LLA_LS_OPTIONS --sizemap
     set -Ux LLA_LH_OPTIONS --timeline
 
